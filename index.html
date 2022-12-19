@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap 5.1.3 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <!-- Font Awesom -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Styles -->
+    <link rel="stylesheet" href="./styles.css" />
+
+    <title>Landing Page 2</title>
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbar-nav">
+      <!-- <div class="container-fluid"> -->
+      <div class="row justify-content-between">
+        <div class="col-3">
+          <div class="logo-text">
+            <a href="#" class="navbar-brand text-danger p-3"
+              ><i class="fa-solid fa-location-dot"></i> <span>Logo</span></a
+            >
+          </div>
+        </div>
+        <div class="col-3 text-end search">
+          <div><i class="fa-solid fa-magnifying-glass p-3"></i></div>
+        </div>
+      </div>
+      <!-- </div> -->
+    </nav>
+    <!-- HERO -->
+    <div id="hero" class="position-relative">
+      <img src="./assets//london2.jpg" alt="hero" />
+      <div class="booking border border-dark">
+        <ul class="booking-items row bg-dark">
+          <li class="col-4 p-3">
+            <button><i class="fa-solid fa-plane"></i>Flight</button>
+          </li>
+          <li class="col-4 p-3">
+            <button><i class="fa-solid fa-bed"></i>Hotel</button>
+          </li>
+          <li class="col-4 p-3">
+            <button><i class="fa-solid fa-car"></i>Rental</button>
+          </li>
+        </ul>
+        <div class="booking-body p-3">
+          <h3>Travel the world with us</h3>
+          <div class="row mb-3">
+            <div class="col-6 d-flex flex-column form-group">
+              <label for="">From</label><input type="text" class="form-control"/>
+            </div>
+            <div class="col-6 d-flex flex-column form-group">
+              <label for="">To</label><input type="text" class="form-control"/>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <button class="btn btn-secondary text-white">
+                Search and find dates
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --f-size-sm: 15px;
+  --f-size-md: 24px;
+  --f-size-lg: 30px;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  overflow-x: hidden;
+}
+
+.logo-text,
+.search i {
+  font-size: var(--f-size-md);
+  transition: all 0.25s ease;
+}
+
+.search i {
+}
+
+.logo-text a:hover,
+.search i:hover {
+  background-color: red;
+  color: #fff !important;
+  cursor: pointer;
+}
+
+/* Booking */
+#hero .booking {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 65%;
+}
+#hero h3 {
+  font-size: var(--f-size-md);
+}
+#hero .booking-items {
+  margin: 0;
+}
+
+#hero .booking-items li {
+  width: fit-content;
+}
+
+#hero .booking-items li button {
+  background-color: transparent;
+  color: #fff !important;
+  border: none;
+}
+
+#hero .booking-items li button i {
+  margin-right: 16px;
+
+}
+
+.booking-body {
+  background-color: #fff !important;
+}
+
+.booking-body button {
+  width: fit-content;
+}
